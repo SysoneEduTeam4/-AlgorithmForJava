@@ -5,11 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-
 public class Main {
 
     public static int solution(int n, int[] arr, int x) {
@@ -39,7 +34,6 @@ public class Main {
         int n = Integer.parseInt(br.readLine()); // 수열의 크기
         int[] arr = Arrays.stream(br.readLine().split(" "))
                 .mapToInt(Integer::parseInt)
-//				.sorted()
                 .toArray();
         int x = Integer.parseInt(br.readLine());
         System.out.println(solution(n, arr, x));
