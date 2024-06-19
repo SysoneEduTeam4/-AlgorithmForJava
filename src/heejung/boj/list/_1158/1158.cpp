@@ -1,27 +1,25 @@
 #include<iostream>
-#include<queue>
+#include<list>
 using namespace std;
-int main() {
-	queue<int> q1;
 
-	int x, y;
-	cin >> x >> y;
-	for (int i = 1; i <= x; i++) {
-		q1.push(i);
+int main() {
+	int n, k;
+	cin >> n >> k;
+	list<int> li;
+	for (int i = 1;i <= n;i++) {
+		li.push_back(i);
 	}
 	cout << "<";
-	for (int i = 0; i < x; i++) {
-		for (int j = 0; j < y - 1; j++) {
-			q1.push(q1.front());
-			q1.pop();
-
+	for (int i = 0;i < n;i++) {
+		for (int j = 0;j < k - 1;j++) {
+			li.push_back(li.front());
+			li.pop_front();
 		}
-		cout << q1.front();
-		if (i != x - 1) {
+		cout << li.front();
+		if (i != n - 1)
 			cout << ", ";
-		}
-		q1.pop();
+		li.pop_front();
 	}
 	cout << ">";
-
+	return 0;
 }
