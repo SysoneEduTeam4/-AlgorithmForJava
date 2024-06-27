@@ -248,3 +248,7 @@ $RECYCLE.BIN/
 
 /algorithm.iml
 /algorithm-java.iml
+
+.vs/
+.bin/
+.obj/
