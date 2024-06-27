@@ -1,9 +1,9 @@
 # 📚 Algorithms Coding Test
 
 ## 👨🏻‍💻 Use Languages
-<img src="https://img.shields.io/badge/-Java-red?logo=Java&logoColor=white&style=flat-square"/></a> </br>
-**Version**: `JDK11` </br>
-- 기업 코딩 테스트로 '프로그래머스' 사이트를 주로 사용합니다. 2024. 06. 12 기준, `JDK14` 버전을 사용하는 것을 확인했지만, 통용되는 `JDK11`을 기준으로 문제를 풀이합니다.
+<img src="https://img.shields.io/badge/-Java-red?logo=Java&logoColor=white&style=flat-square"/></a>
+<img src="https://img.shields.io/badge/-C++-000000?logo=c%2B%2B&style=flat"/></a> </br>
+- **Java Version**: `JDK11` :: 기업 코딩 테스트로 '프로그래머스' 사이트를 주로 사용합니다. 2024. 06. 12 기준, `JDK14` 버전을 사용하는 것을 확인했지만, 통용되는 `JDK11`을 기준으로 문제를 풀이합니다.
 
 ## 🗓️ Plan
 ### 1️⃣ Chapter 01: 기본 알고리즘과 자료구조
